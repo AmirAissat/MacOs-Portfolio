@@ -193,11 +193,11 @@ const photosLinks = [
 const gallery = [
     {
         id: 1,
-        img: "/images/gal1.png",
+        img: "public/public/images/gal1.png",
     },
     {
         id: 2,
-        img: "/images/gal2.png",
+        img: "public/images/gal2.png",
     },
     {
         id: 3,
@@ -262,11 +262,11 @@ const WORK_LOCATION = {
                 {
                     id: 4,
                     name: "nike.png",
-                    icon: "public/public/images/image.png",
+                    icon: "public/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-1.png",
+                    imageUrl: "public/images/project-1.png",
                 },
                 {
                     id: 5,
@@ -319,7 +319,7 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "img",
                     position: "top-52 left-80",
-                    imageUrl: "/images/project-2.png",
+                    imageUrl: "public/images/project-2.png",
                 },
                 {
                     id: 5,
@@ -372,7 +372,7 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-3.png",
+                    imageUrl: "public/images/project-3.png",
                 },
                 {
                     id: 5,
@@ -402,7 +402,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "public/images/adrian.jpg",
         },
         {
             id: 2,
@@ -411,7 +411,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            imageUrl: "public/images/adrian-2.jpg",
         },
         {
             id: 3,
@@ -420,7 +420,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
+            imageUrl: "public/images/adrian-3.jpeg",
         },
         {
             id: 4,
