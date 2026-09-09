@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import {Draggable} from "gsap/Draggable";
+import {Analytics} from "@vercel/analytics/react";
 
 
 import {Navbar, Welcome, Dock, Home} from "#components"
@@ -24,6 +25,8 @@ const App = () => {
             <Home />
             <Photos />
             <Hobbies />
+
+            <Analytics />
         </main>
     )
 }
