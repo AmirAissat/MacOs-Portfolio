@@ -19,13 +19,13 @@ const Terminal = () => {
                 </p>
 
                 <div className="label">
-                    <p className="w-32">Category</p>
+                    <p className="w-44">Category</p>
                     <p>Technologies</p>
                 </div>
 
                 <ul className="content">
                     { techStack.map(({category, items }) => (
-                        <li key={category} className="flex items-center">
+                        <li key={category} className="flex items-start">
                             <Check className="check" size={20}/>
                             <h3>{category}</h3>
                             <ul>

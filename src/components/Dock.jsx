@@ -2,13 +2,15 @@ import React, {useRef} from 'react'
 import {Tooltip} from "react-tooltip";
 import gsap from 'gsap';
 
-import {dockApps} from "#constants/index.js";
+import {dockApps, locations} from "#constants/index.js";
 import {useGSAP} from "@gsap/react";
 import useWindowStore from "#store/window.js";
+import useLocationStore from "#store/location.js";
 
 
 const Dock = () => {
     const{openWindow, closeWindow, windows} = useWindowStore();
+    const {setActiveLocation} = useLocationStore();
     const dockRef = useRef(null)
 
 
@@ -62,6 +64,12 @@ const Dock = () => {
     const toggleApp = (app) => {
         if(!app.canOpen) return;
 
+        if(app.id === "trash") {
+            setActiveLocation(locations.trash);
+            openWindow("finder");
+            return;
+        }
+
         const window = windows[app.id];
 
         if (!window) {
@@ -73,8 +81,6 @@ const Dock = () => {
         } else {
             openWindow(app.id);
         }
-
-        console.log(windows);
     }
 
     return (
