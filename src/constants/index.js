@@ -314,7 +314,7 @@ const WORK_LOCATION = {
                         "A full-stack web app that automates resume screening by using AI to analyze and score candidate resumes against job descriptions.",
                         "I built a responsive React frontend with dynamic components for creating job postings, drag-and-drop resume uploads, and visualizing AI-generated feedback and match scores.",
                         "Puter.js powers the backend, handling user authentication, secure file storage, and serverless API endpoints for PDF processing and AI analysis.",
-                        "The whole thing is deployed to production end-to-end, from frontend to backend, as a project I own solo.",
+                        "I built the whole thing solo, from the React frontend through the backend integration.",
                     ],
                 },
                 {
